@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.logo .mindx-logo{
+    background-size: cover;
+    width: 150px;
+    margin: 15px;
+}
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: large;
+    font-weight: 500;
+    height: 100px;
+    line-height: 20px;
+}
+.menu .navbarUl{
+    display: flex;
+}
+.navbarUl li{
+    list-style: none;
+    margin: 40px;
+} 
+.navbarUl li a{
+    text-decoration: none;
+    color: black;
+}
+.navbarUl .redtext{
+    color: #FFC527;
+}
+.navIcon{
+    margin: 40px;
+    
+}
+.navIcon a{
+    color: black;
+}
+.container {
+    background: #fff;
+    width: 550px;
+    height: 420px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 100px;
+    box-shadow: 2px 5px 20px rgba(119, 119, 119, 0.5);
+  }
+  
+  .leftbox {
+    float: left;
+    top: -5%;
+    left: 5%;
+    position: absolute;
+    width: 15%;
+    height: 110%;
+    background: #FFC527;
+    box-shadow: 3px 3px 10px rgba(119, 119, 119, 0.5);
+  }
+  
+  nav a {
+    list-style: none;
+    padding: 35px;
+    color: #fff;
+    font-size: 1.1em;
+    display: block;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #fff;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  
+  nav a:first-child {
+    margin-top: 7px;
+  }
+  .rightbox {
+    float: right;
+    width: 60%;
+    height: 100%;
+  }
+  
+  .profile {
+    position: absolute;
+    width: 50%;
+    font-size: 21px;
+  }
+  
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #FFC527;
+    font-size: 1em;
+    margin-top: 40px;
+    margin-bottom: 35px;
+  }
+  
+  h2 {
+    color: #777;
+    font-family: "Roboto", sans-serif;
+    width: 80%;
+    text-transform: uppercase;
+    font-size: 8px;
+    letter-spacing: 1px;
+    margin-left: 2px;
+  }
+  
+  p {
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #3fb6a8, rgba(126, 211, 134, 0.5)) 1
+      0%;
+    border-top: 0;
+    width: 80%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.7em;
+    padding: 7px 0;
+    color: #070707;
+  }
+  
+  .btn {
+    float: right;
+    font-size: 14px;
+    border: none;
+    color: #FFC527;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    text-decoration: none;
+    font-weight: 900;
+  }

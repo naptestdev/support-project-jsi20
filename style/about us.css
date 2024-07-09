@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.logo .mindx-logo{
+    background-size: cover;
+    width: 150px;
+    margin: 15px;
+}
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: large;
+    font-weight: 500;
+    height: 100px;
+    line-height: 20px;
+}
+.menu .navbarUl{
+    display: flex;
+}
+.navbarUl li{
+    list-style: none;
+    margin: 40px;
+} 
+.navbarUl li a{
+    text-decoration: none;
+    color: black;
+}
+.navbarUl .redtext{
+    color: #FFC527;
+}
+.navIcon{
+    margin: 40px;
+    
+}
+.navIcon a{
+    color: black;
+}
+.aboutus .banner img{
+    background-size: cover;
+    width: 100%;
+    filter: brightness(0.5); 
+    height: 825px;
+}
+.banner {
+    position: relative;
+    overflow: hidden;
+  }
+  
+.banner img {
+    width: 100%;
+    height: auto;
+    filter: brightness(0.5);
+    height: 700px;
+}
+.text-overlay1 {
+    font-size: 27px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+.text-overlay1 h1{
+    color: #FFC527;
+}
+.about_map{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 960px;
+}
+.about_map .ab_In{
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+}
+.about_map .mapouter{
+    padding-left: 200px;
+    margin-bottom: 50px;
+}
+.about_map .mapouter p{
+    font-size: 22px;
+    color: #008000;
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .contact-info,
+  .company-info {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .company-info {
+    text-align: right;
+  }
+  
+  .company-info img {
+    max-height: 60px;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .contact-info,
+    .company-info {
+      margin-bottom: 20px;
+    }
+  }
