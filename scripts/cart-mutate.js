@@ -3,15 +3,13 @@ const addToCart = (productId) => {
     ? JSON.parse(localStorage.getItem("cart"))
     : [];
 
-  const existingItem = cart.find(
-    (item) => String(item.id) === String(productId)
-  );
+  const existingItem = cart.find((item) => item.id == productId);
 
   if (existingItem) {
     existingItem.quantity++;
   } else {
     cart.push({
-      ...pro.find((product) => String(product.id) === String(productId)),
+      ...pro.find((product) => product.id == productId),
       quantity: 1,
     });
   }
@@ -24,7 +22,7 @@ const removeFromCart = (productId) => {
     ? JSON.parse(localStorage.getItem("cart"))
     : [];
 
-  let existingItem = cart.find((item) => item.id === productId);
+  let existingItem = cart.find((item) => item.id == productId);
 
   if (existingItem) {
     if (existingItem.quantity === 1) {
