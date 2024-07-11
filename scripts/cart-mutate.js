@@ -26,7 +26,7 @@ const removeFromCart = (productId) => {
 
   if (existingItem) {
     if (existingItem.quantity === 1) {
-      cart = cart.filter((item) => item.id !== existingItem.id);
+      cart = cart.filter((item) => item.id != existingItem.id);
     } else {
       existingItem.quantity--;
     }
