@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Shopping Page</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/cart.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="navbar-container">
+          <a href="./index.html" class="navbar-brand">Shopping Website</a>
+          <div class="navbar-search">
+            <input type="text" placeholder="Search..." />
+            <button type="submit">Search</button>
+          </div>
+          <ul class="navbar-nav">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li class="icons"></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div id="cart-container"></div>
+    </div>
+
+    <script src="./scripts/navbar.js"></script>
+    <script src="./scripts/data.js"></script>
+    <script src="./scripts/cart-mutate.js"></script>
+    <script src="./scripts/cart.js"></script>
+  </body>
+</html>
